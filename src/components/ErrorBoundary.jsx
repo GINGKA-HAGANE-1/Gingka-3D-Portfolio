@@ -26,7 +26,7 @@ class ErrorBoundary extends React.Component {
     if (this.state.hasError) {
       return (
         <div className="w-full h-full bg-tertiary rounded-2xl flex items-center justify-center">
-          <p className="text-white text-center">Loading 3D Model...</p>
+          <p className="text-white text-center"></p>
         </div>
       );
     }
