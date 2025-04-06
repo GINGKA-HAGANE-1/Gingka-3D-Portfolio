@@ -7,21 +7,19 @@
     "node": ">=16.0.0"
   },
   "scripts": {
-    "build": "vite build",
-    "prebuild": "npm install",
     "dev": "vite",
+    "build": "CI=false vite build --emptyOutDir",
     "preview": "vite preview"
   },
   "dependencies": {
     "@emailjs/browser": "^3.12.1",
-    "@react-three/drei": "^9.122.0",
-    "@react-three/fiber": "^8.18.0",
+    "@react-three/drei": "^9.88.0",
+    "@react-three/fiber": "^8.15.0",
     "framer-motion": "^10.18.0",
     "maath": "^0.7.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-router-dom": "^6.30.0",
-    "react-scripts": "^5.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.0",
     "react-tilt": "^1.0.2",
     "react-type-animation": "^3.2.0",
     "react-vertical-timeline-component": "^3.6.0",

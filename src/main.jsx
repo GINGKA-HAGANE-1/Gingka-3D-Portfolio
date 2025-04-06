@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { Suspense } from 'react';
-import App from './app.jsx';  // Changed from './App.jsx' to './app.jsx'
+import App from './App.jsx';  // Changed from './App.jsx' to './app.jsx'
 import './index.css';
 
 import { 
