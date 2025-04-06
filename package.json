@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "CI=false vite build --emptyOutDir",
+    "build": "set CI=false && vite build --emptyOutDir",
     "preview": "vite preview"
   },
   "dependencies": {

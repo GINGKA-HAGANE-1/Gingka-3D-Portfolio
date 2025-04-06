@@ -3,8 +3,7 @@ import SectionWrapper from "../hoc/SectionWrapper";
 import { motion } from "framer-motion";
 import { slideIn } from "../utils/motion";
 import { styles } from "../styles";
-// Remove this import as it's no longer needed
-// import { EarthCanvas } from "./canvas";
+
 import emailjs from "@emailjs/browser";
 import { personalInfo, publicUrls } from "../constants";
 import Modal from "./Modal";
