@@ -3,8 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "scripts": {
-    "build": "npm install && npx vite build",
+    "build": "vite build",
+    "prebuild": "npm install",
     "dev": "vite",
     "preview": "vite preview"
   },
